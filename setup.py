@@ -18,5 +18,5 @@ setup(
     packages = find_packages(),
     include_package_data = True,
     platforms = "any",
-    install_requires = ["redis", "tornado==4.4.3", "M2Crypto", "logutils"]
+    install_requires = ["redis", "tornado==6.3.2", "M2Crypto", "logutils"]
 )
